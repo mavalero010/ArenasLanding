@@ -12,7 +12,7 @@ async function bootstrap() {
     origin: [
       'http://localhost:3000', // Permitir localhost
       'https://example.com',    // Permitir example.com
-      'https://https://arenasfront-dg1324cfn-mavalero010s-projects.vercel.app', // Permitir otro dominio
+      'https://arenasfront-3x0nmabmt-mavalero010s-projects.vercel.app', // Permitir otro dominio
       /https?:\/\/(.*\.)?ngrok(-free)?\.app$/, // Permitir ngrok
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
