@@ -1,0 +1,49 @@
+Prueba Técnica - Gestor de Desarrollo
+FullStack
+
+Objetivo General
+El objetivo de esta prueba es evaluar las habilidades técnicas y prácticas del aspirante en el
+desarrollo de un sitio web dinámico orientado a una inmobiliaria, con un enfoque en la
+creación de un buscador flexible de inmuebles y buenas prácticas de desarrollo web.
+
+Parte 1: Sitio Web Dinámico
+Desarrollar una landing page que incluya las siguientes secciones:
+• Banner de bienvenida.
+• Sección de presentación de servicios.
+• Sección de testimonios o aliados.
+• Footer con información de contacto y redes sociales.
+
+Parte 2: Buscador Flexible de Inmuebles
+Implementar un módulo de búsqueda que permita filtrar inmuebles por:
+• Ciudad.
+• Barrio.
+• Tipo de inmueble (casa, apartamento, etc.).
+• Rango de precio.
+El buscador debe aceptar combinaciones flexibles de filtros y mostrar los resultados
+dinámicamente. Incluir paginación o scroll infinito para manejar múltiples resultados.
+El backend debe incluir endpoints RESTful que devuelvan los inmuebles filtrados de
+acuerdo a los parámetros enviados.
+
+Parte 3: Buenas Prácticas y Arquitectura
+El proyecto debe seguir las siguientes buenas prácticas:
+• Código limpio y bien documentado.
+• Separación clara de responsabilidades y componentes.
+• Estructura organizada del proyecto.
+
+• Archivo README con instrucciones para ejecutar el proyecto.
+
+Bonus (Opcional)
+Se valorará adicionalmente si incluye:
+• Filtros adicionales como "nuevo", "destacado", "arriendo/venta".
+• Sistema de autenticación básica para agregar inmuebles.
+• Despliegue del proyecto en un hosting gratuito o en la nube.
+
+Evaluación
+Los criterios de evaluación serán:
+• Claridad y limpieza del código.
+• Organización de archivos y estructura del proyecto.
+• Experiencia de usuario en el buscador.
+• Funcionalidad completa del buscador flexible.
+• Capacidad de comunicación de la solución (documentación breve o video corto).
+
+Por ultimo, el proyecto debe ser cargado a un repositorio en GitHub.
