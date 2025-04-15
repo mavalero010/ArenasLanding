@@ -1,6 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { ValidationPipe } from '@nestjs/common';
+import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -22,7 +23,6 @@ async function bootstrap() {
     credentials: true 
   });
 
-  
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
@@ -30,6 +30,16 @@ async function bootstrap() {
       forbidNonWhitelisted: true,
     }),
   );
+
+  // Configuración de Swagger
+  const config = new DocumentBuilder()
+    .setTitle('Inmobiliaria API')
+    .setDescription('API para gestionar inmuebles y usuarios')
+    .setVersion('1.0')
+    .addTag('properties')
+    .build();
+  const document = SwaggerModule.createDocument(app, config);
+  SwaggerModule.setup('api/docs', app, document); // Swagger estará disponible en /api/docs
 
   app.setGlobalPrefix('api');
   

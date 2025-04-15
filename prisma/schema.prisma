@@ -20,7 +20,7 @@ model Property {
   featured    Boolean  @default(false)
   new         Boolean  @default(false)
   description String    @db.Text
-  imageUrl    String    @db.VarChar(255)
+  image_url    String    @db.VarChar(255)
   createdAt   DateTime @default(now()) @map("created_at")
   updatedAt   DateTime @updatedAt @map("updated_at")
 }

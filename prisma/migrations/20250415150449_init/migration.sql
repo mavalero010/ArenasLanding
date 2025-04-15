@@ -8,7 +8,7 @@ CREATE TABLE "Property" (
     "featured" BOOLEAN NOT NULL DEFAULT false,
     "new" BOOLEAN NOT NULL DEFAULT false,
     "description" TEXT NOT NULL,
-    "imageUrl" VARCHAR(255) NOT NULL,
+    "image_url" VARCHAR(255) NOT NULL,
     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updated_at" TIMESTAMP(3) NOT NULL,
 
