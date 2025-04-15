@@ -10,8 +10,10 @@ async function bootstrap() {
   // Config CORS for ngrok
   app.enableCors({
     origin: [
-      'http://localhost:3000', // Pe
-'https://arenasfront-3x0nmabmt-mavalero010s-projects.vercel.app'
+      'http://localhost:3000', // Permitir localhost
+      'https://example.com',    // Permitir example.com
+      'https://https://arenasfront-dg1324cfn-mavalero010s-projects.vercel.app', // Permitir otro dominio
+      /https?:\/\/(.*\.)?ngrok(-free)?\.app$/, // Permitir ngrok
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     allowedHeaders: [
