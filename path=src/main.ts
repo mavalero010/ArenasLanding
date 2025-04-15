@@ -11,6 +11,7 @@ async function bootstrap() {
       'http://localhost:3000', // Permitir localhost
       'https://example.com',    // Permitir example.com
       'https://another-domain.com', // Permitir otro dominio
+      'https://arenasfront-3x0nmabmt-mavalero010s-projects.vercel.app', // Permitir la URL específica
       /https?:\/\/(.*\.)?ngrok(-free)?\.app$/, // Permitir ngrok
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',

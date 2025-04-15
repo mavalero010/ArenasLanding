@@ -11,7 +11,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:3000', // Pe
-'https://arenasfront-3x0nmabmt-mavalero010s-projects.vercel.app '
+'https://arenasfront-3x0nmabmt-mavalero010s-projects.vercel.app'
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     allowedHeaders: [
